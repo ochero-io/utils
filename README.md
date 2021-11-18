@@ -10,6 +10,7 @@ The base image is the official Ubuntu 21.04 LTS Hirsute Hippo.
 * net-tools
 * iputils-ping 
 * dnsutils 
+* nmap
 
 ### Use Cases ###
 

@@ -8,7 +8,8 @@ RUN apt-get update && apt-get install -y \
     iputils-ping \
     dnsutils \
     nmap \
-    gettext-base
+    gettext-base \
+    git
 
 RUN wget https://dl.k8s.io/release/v1.27.4/bin/linux/amd64/kubectl && \
     mv kubectl /usr/local/bin && \

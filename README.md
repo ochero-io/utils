@@ -1,7 +1,6 @@
 # UTILS #
 
-This Docker image contains several frequently used binaries for administration of containers/pods on Swarm and Kuberentes. \
-The base image is the official Ubuntu 21.04 LTS Hirsute Hippo.
+This Docker image contains several frequently used binaries for administration of containers/pods on Swarm and Kuberentes. The base image is the official Ubuntu 22.04 LTS Jammy Jellyfish.
 
 ### Included Binaries: ###
 
@@ -13,6 +12,7 @@ The base image is the official Ubuntu 21.04 LTS Hirsute Hippo.
 * nmap
 * envsubst
 * yq
+* git
 
 ### Use Cases ###
 
